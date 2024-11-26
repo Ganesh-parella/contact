@@ -1,0 +1,30 @@
+.section3 div img
+{
+    width: 25px;
+    height: 25px;
+}
+.section3 div p
+{
+    margin: 0px;
+    font-size: 1.6rem;
+    
+}
+.section3 div p:nth-child(even)
+{
+    margin-bottom: 16px;
+}
+.section3 div p:nth-child(5)
+{
+    margin-bottom: 16px;
+}
+.section3 div h1
+{
+    margin-top: 0px;
+    font-size: 30px;
+}
+.section3
+{
+    display: flex;
+ 
+}
+

@@ -1,0 +1,99 @@
+
+
+.displayContainer
+{
+    
+    display: grid;
+    grid-template-columns: max-content max-content max-content;
+    column-gap: 30px;
+    font-size: 18px;
+    margin-top: 4rem;
+}
+.ed {
+    display: flex;
+    gap: 5px;
+}
+.contactlistdiv
+{
+    border: 0.05rem solid #cccccc;
+    font-size: 1.3rem;
+    max-width: 380px;
+    
+}
+.contactlistdiv p
+{
+    padding-left: 2rem;
+    margin: 0.5rem 0rem;
+}
+.contactlistdiv p:first-child
+{
+    font-size: 3rem;
+    padding-left: 1rem;
+    
+}
+.contactlistdiv:active
+{
+    background-color: #000000;
+}
+.contactlistdiv:hover
+{
+    background-color: #dcf4ff;
+}
+.heading
+{
+    background-color: hsl(200, 60%, 50%);
+    font-size: 4rem;
+    color: #fff;
+    padding: 2.5rem 2.5rem 2.5rem 2rem;
+
+}
+nav
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #fff;
+    background-color: black;
+    padding: 0rem 1rem;
+    margin-bottom: 1rem;
+   
+}
+nav ul
+{   
+    display: flex;
+   
+    list-style: none;
+}
+nav ul li
+{
+    font-size: 1.8rem;
+    padding: 0.6rem 1rem;
+    
+   
+}
+ nav ul li a{
+  text-decoration: none;
+  color: #fff;
+}
+nav img
+{
+    padding-right: 1rem;
+}
+#contacts
+{
+    font-size: 1.6rem;
+    padding-bottom: 1.5rem;
+    margin-bottom: 1.6rem;
+}
+.grid-2-col
+{
+    grid-template-columns: 1fr 2fr;
+}
+.column
+{
+    display: grid;
+  
+    padding: 1.5rem 2rem;
+    
+}
+

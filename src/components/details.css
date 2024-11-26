@@ -1,0 +1,23 @@
+
+
+.displayContainer
+{
+    
+    display: grid;
+    grid-template-columns: max-content max-content max-content;
+    column-gap: 30px;
+    font-size: 18px;
+    margin-top: 4rem;
+}
+.ed {
+    display: flex;
+    gap: 5px;
+  
+    
+}
+.ed:hover
+{
+    background-color: #ccc;
+}
+
+

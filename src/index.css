@@ -1,0 +1,19 @@
+html
+{
+    font-size: 62.5%;
+}
+body
+{
+    margin-top: 0px;
+    position: relative;
+    
+}
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+.grid-2-col
+{
+    grid-template-columns: 1fr 2fr;
+}

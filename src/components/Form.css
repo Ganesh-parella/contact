@@ -1,0 +1,86 @@
+html
+{
+    font-size: 62.5%;
+}
+.validations,#validations{
+    color: #ff0000;
+    font-size: 1.2rem;
+}
+.form
+{   
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    width: 68rem;
+    margin-bottom: 0px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 3px 15px;
+    background-color: #fff;
+    padding: 4rem;
+    top: 27vh;
+    left:30%;
+    height: max-content;
+    z-index: 1000;
+    transition: all 3ms ease-in;
+}
+.visible
+{ 
+    display: flex;
+    animation: fade-slide-in 0.3s ease-out forwards;
+}
+
+input
+{
+    max-width: 52rem;
+    height: 4rem;
+    border: 0.15rem solid black;
+    margin: 0.5rem 0px 1.2rem 0px;
+}
+label
+{
+    font-weight: bold;
+    font-size: 1.4rem;
+}
+#Address
+{   margin-top: 0.5rem;
+    border: 0.1rem solid black;
+    max-width: 52rem;
+}
+#Add 
+{
+    font-size: 1.5rem;
+    margin: 1rem 0rem 2rem 0rem;
+    width: 10.8rem;
+    background-color: #468C00;
+    color: white;
+}
+#reset
+{
+    font-size: 1.5rem;
+    margin: 1rem 0rem 2rem 0rem;
+    width: 10.8rem;
+    background-color: #edf4e6;
+    color: #666;
+}
+.contact_number
+{
+    display: flex;
+    gap: 1.5rem;
+    
+
+}
+#Mobile,#Landline
+{
+    width: 24.7rem;
+}
+.contact_number div
+{
+    width: 26rem;
+}
+.buttonbox
+{  margin-top: 2rem;
+    display: flex;
+    justify-content: end;
+     width: inherit;
+    gap: 1rem;
+    
+}
